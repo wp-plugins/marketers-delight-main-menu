@@ -8,12 +8,14 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display a beautiful responsive menu with dropdown navigation, social media icons and a search bar with the Marketers Delight theme.
+Display a beautiful responsive menu with dropdown navigation, social media icons and a search bar in Marketers Delight.
 
 == Description ==
 
-NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
-Marketers Delight (both the theme AND plugin) through your WordPress Dashboard.
+<b>NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
+Marketers Delight (both the theme AND plugin) through your WordPress Dashboard.</b>
+
+[Read the official getting started guide &rarr;](https://kolakube.com/guides/main-menu-getting-started/)
 
 Display a beautiful responsive menu with dropdown navigation, social media icons, a search bar, with the Marketers Delight theme. With hooks, this menu can be extended to hold even more content.
 
@@ -28,6 +30,8 @@ Note: This plugin was built exclusively for the [Marketers Delight](https://kola
 3. Go to Appearance > Customize to add menu items
 
 Read the FAQ for more details and tips.
+
+[Read the official getting started guide &rarr;](https://kolakube.com/guides/main-menu-getting-started/)
 
 == Frequently Asked Questions ==
 
