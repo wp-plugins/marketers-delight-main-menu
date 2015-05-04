@@ -8,11 +8,12 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-*NOTE: Before you install this Addon, make sure you’ve updated to the latest version of Marketers Delight (both the theme AND plugin)*
-
 Display a beautiful responsive menu with dropdown navigation, social media icons and a search bar with the Marketers Delight theme.
 
 == Description ==
+
+*NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
+Marketers Delight (both the theme AND plugin)*
 
 Display a beautiful responsive menu with dropdown navigation, social media icons, a search bar, with the Marketers Delight theme. With hooks, this menu can be extended to hold even more content.
 
