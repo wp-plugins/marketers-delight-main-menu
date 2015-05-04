@@ -8,6 +8,8 @@ Stable tag: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+*NOTE: Before you install this Addon, make sure you’ve updated to the latest version of Marketers Delight (both the theme AND plugin)*
+
 Display a beautiful responsive menu with dropdown navigation, social media icons and a search bar with the Marketers Delight theme.
 
 == Description ==
@@ -34,11 +36,13 @@ This menu plugin was built specifically for the [Marketers Delight](https://kola
 
 = How many dropdown menus can I have? =
 
-This menu only supports ONE level of dropdown items.
+This menu only supports an unlimited level of dropdown items on all devices.
 
 = Where is the menu added? =
 
-The main menu is added to every page / post on your site by default. You may remove the Main Menu on a page-per-page basis by editing the page and looking for the "Layout" meta box. From there, you may also change the menu links to show a different menu on the page.
+The main menu is added to your blog homepage and archives by default. You may add the Main Menu to any post or page by clicking “Add Main Menu” in the “Layout” meta box on your post editor. If you want to add the Main Menu to every page by default, from your Dashboard go to `Appearance > Customizer > Layout` and enable the Sitewide setting.
+
+If the Main Menu is enabled site wide, you will have the option to remove it from any individual post or page from the same “Layout” meta box on your post editor. Fine-tune control, baby.
 
 = Can I override the template file and stylesheet? =
 
