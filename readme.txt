@@ -12,10 +12,10 @@ Display a beautiful responsive menu with dropdown navigation, social media icons
 
 == Description ==
 
-<b>NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
-Marketers Delight (both the theme AND plugin) through your WordPress Dashboard.</b>
+NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
+Marketers Delight (both the theme AND plugin) through your WordPress Dashboard.
 
-[Read the official getting started guide &rarr;](https://kolakube.com/guides/main-menu-getting-started/)
+[Read the official getting started guide to see a LIVE DEMO &rarr;](https://kolakube.com/guides/main-menu-getting-started/)
 
 Display a beautiful responsive menu with dropdown navigation, social media icons, a search bar, with the Marketers Delight theme. With hooks, this menu can be extended to hold even more content.
 
@@ -59,7 +59,13 @@ For example, if I wanted to edit the template, the file path would be `/wp-conte
 
 == Screenshots ==
 
-1. coming after approval
+To see a live demo of this menu, [go here](https://kolakube.com/guides/main-menu-getting-started/)
+
+1. What the Main Menu looks like on your site on a computer
+
+2. The Main Menu turns into a content switcher on tablets / phones. Tap to open.
+
+3. What the Social Media links looks like opened on mobile.
 
 == Changelog ==
 
