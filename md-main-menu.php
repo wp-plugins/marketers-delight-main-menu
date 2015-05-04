@@ -179,4 +179,4 @@ class md_main_menu_init {
 
 }
 
-new md_main_menu_init;
+$main_menu = new md_main_menu_init;
