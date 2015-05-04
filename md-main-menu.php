@@ -3,7 +3,7 @@
  * Plugin Name: Marketers Delight Main Menu
  * Plugin URI: https://kolakube.com/
  * Description: Display a menu with dropdown navigation, social media icons, a search bar, and more to your site. This plugin requires the Marketers Delight Theme and Plugin to be installed and updated to the latest version.
- * Version: 1.0
+ * Version: 1.0.1
  * Author: Alex Mangini
  * Author URI: https://kolakube.com/about/
  * Author email: alexfrais@gmail.com
