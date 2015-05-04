@@ -12,8 +12,8 @@ Display a beautiful responsive menu with dropdown navigation, social media icons
 
 == Description ==
 
-= NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
-Marketers Delight (both the theme AND plugin) through your WordPress Dashboard. =
+NOTE: Before you install this Addon, make sure you’ve updated to the latest version of 
+Marketers Delight (both the theme AND plugin) through your WordPress Dashboard.
 
 Display a beautiful responsive menu with dropdown navigation, social media icons, a search bar, with the Marketers Delight theme. With hooks, this menu can be extended to hold even more content.
 
