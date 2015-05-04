@@ -1,0 +1,396 @@
+.main-menu,
+.main-menu.box-sec {
+	border-width: 0;
+	position: relative;
+	z-index: 50;
+}
+
+.main-menu[class*="links-"] a:hover {
+	border-bottom-width: 1px;
+}
+
+.menu-trigger {
+	cursor: pointer;
+}
+
+.menu-main .sub-menu .menu-item {
+	display: block;
+}
+
+
+/* MENU ITEM TITLE + DESC */
+
+.menu-main .menu-item:not(.button) .menu-item-title {
+	color: rgba(0, 0, 0, 0.9);
+	font-size: 15px;
+	position: relative;
+}
+
+.menu-main .menu-item-desc {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 13px;
+	display: block;
+}
+
+.menu-social.menu .menu-item a:hover,
+.menu-trigger:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.main-menu-triggers .menu-trigger.menu-trigger-search {
+	margin-right: 0;
+}
+
+
+/* SOCIAL */
+
+.menu-social .menu-item:not(:last-child) {
+	margin-right: 20px;
+}
+
+.menu-social .menu-item a {
+	font-family: md-icon;
+	font-size: 21px;
+	padding: 0;
+}
+
+
+
+
+
+/*------------------------------*\
+	$1118MIN
+\*------------------------------*/
+
+@media all and (min-width: 1118px) {
+
+	/* STRUCTURE */
+
+	.has-menu-main .main-menu-side {
+		margin-top: -14px;
+		position: absolute;
+			right: 0;
+			top: 50%;
+	}
+
+	.has-menu-main .main-menu-side-search {
+		margin-top: -26px;
+	}
+
+	.menu-trigger:not(:last-child) {
+		margin-left: 20px;
+	}
+
+	.main-menu-content,
+	.menu-main {
+		float: left;
+	}
+
+
+	/* MAIN MENU SIMPLE */
+
+	.main-menu-simple .main-menu-triggers,
+	.main-menu-simple .menu-content {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.main-menu-simple .main-menu-triggers {
+		margin-right: 20px;
+	}
+
+
+	/* HAS MENU MAIN */
+
+	.has-menu-main .main-menu-triggers,
+	.has-menu-main .menu-search,
+	.has-menu-main .menu-social {
+		float: right;
+	}
+
+	.has-menu-main .main-menu-triggers {
+		position: relative;
+	}
+
+	.has-menu-main .menu-search:not(:last-child) .main-menu-triggers-sep {
+		border-left: 1px solid rgba(0, 0, 0, 0.15);
+		margin-left: 20px;
+		padding-left: 20px;
+	}
+
+
+	/* TRIGGERS */
+
+	.main-menu-triggers[class*="columns-"] .col {
+		float: none;
+		width: auto;
+	}
+
+
+	/* TOP LEVEL STATES */
+
+	.menu-main > .current-menu-item > a {
+		background-color: #fff;
+		margin-bottom: -2px;
+	}
+
+	.menu-main > .menu-item-has-children:hover > a {
+		background-color: #fff;
+	}
+
+
+	/* MENU ITEM */
+
+	.menu-main > .menu-item:not(.current-menu-item):first-child {
+		margin-left: -26px;
+	}
+
+	.menu-main .menu-item a {
+		padding-left: 26px;
+		padding-right: 26px;
+	}
+
+
+	/* SUB MENU */
+
+	.menu-main .sub-menu {
+		background-color: #fff;
+		border-bottom: 2px solid #ae2525;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+
+	.menu-main .sub-menu a {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	}
+
+	.menu-main .sub-menu a:hover {
+		background-color: #fcfcfc;
+	}
+
+
+	/* SUB MENU PARENT LINK */
+
+	.menu-main > .menu-item-has-children > a > .menu-item-title:after,
+	.menu-main .sub-menu .menu-item-has-children:after {
+		font-family: md-icon;
+		position: absolute;
+	}
+
+	.menu-main > .menu-item-has-children > a > .menu-item-title:after {
+		content: '\e80e'; /* down */
+		right: -19px;
+		top: -3px;
+	}
+
+	.menu-main .sub-menu .menu-item-has-children:after {
+		content: '\e80f'; /* right */
+		margin-top: -13px;
+		right: 26px;
+		top: 50%;
+	}
+
+	.menu-main > .menu-item-has-children > a {
+		padding-right: 34px;
+	}
+
+	.menu-main .menu-item-has-children:hover > .sub-menu {
+		display: block;
+	}
+
+
+	/* SUB MENU LINKS */
+
+	.menu-main .sub-menu {
+		display: none;
+		position: absolute;
+			left: 0;
+		width: 312px;
+	}
+
+	.menu-main .sub-menu .sub-menu {
+		left: 312px;
+		top: 0;
+	}
+
+
+	/* SEARCH */
+
+	.main-menu-simple .menu-search:not(:last-child) .main-menu-triggers-sep {
+		border-right: 1px solid rgba(0, 0, 0, 0.15);
+		margin-right: 20px;
+		padding-right: 20px;
+	}
+
+	.menu-search {
+		display: inline-block;
+	}
+
+	.menu-search-field {
+		width: 364px;
+	}
+
+}
+
+
+
+
+
+/*------------------------------*\
+	$1118MAX
+\*------------------------------*/
+
+@media all and (max-width: 1118px) {
+
+	.main-menu.block-single-tb {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+
+	/* TRIGGERS */
+
+	.menu-trigger {
+		background-color: rgba(0, 0, 0, 0.05);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		display: block;
+		padding: 13px 26px;
+		text-align: center;
+	}
+
+	.menu-trigger:not(:last-child) {
+		border-right: 1px solid rgba(0, 0, 0, 0.15);
+	}
+
+	.menu-trigger-active {
+		background-color: #ddd;
+		border-bottom-color: #ddd;
+	}
+
+	.menu-trigger-text {
+		font-size: 14px;
+		font-weight: 500;
+		margin-left: 7px;
+	}
+
+
+	/* CONTENT */
+
+	.menu-content {
+		padding: 26px;
+	}
+
+
+
+	/*-------------*\
+		MENU MAIN
+	\*--------------*/
+
+	.menu-main {
+		margin-left: -52px;
+		padding-bottom: 0;
+	}
+
+
+	/* MENU ITEM */
+
+	.menu-main > .menu-item {
+		display: block;
+		float: left;
+		margin-bottom: 26px;
+		padding-left: 52px;
+		vertical-align: top;
+		width: 25%;
+	}
+
+	.menu-social .menu-item:not(:last-child),
+	.menu-main > .menu-item:not(:last-child) {
+		border-bottom: none;
+	}
+
+	.menu-main > .menu-item a {
+		padding: 6px 0;
+	}
+
+	.menu-main > .menu-item a + .sub-menu {
+		padding-bottom: 0;
+	}
+
+	.menu-main > .menu-item > a {
+		padding-bottom: 4px;
+	}
+
+	.menu-main .menu-item-desc {
+		display: none;
+	}
+
+
+	/* SUB MENU */
+
+	.menu-main .sub-menu .sub-menu {
+		border-left: 1px solid rgba(0, 0, 0, 0.15);
+	}
+
+	.menu-main .sub-menu .sub-menu .sub-menu {
+		margin-left: 16px;
+	}
+
+	.menu-main .sub-menu .sub-menu a {
+		padding-left: 16px;
+	}
+
+	.menu-main .sub-menu .menu-item .menu-item-title {
+		color: rgba(0, 0, 0, 0.65);
+		font-size: 14px;
+	}
+
+
+	/*--------------*\
+		SOCIAL
+	\*--------------*/
+
+	.menu-social {
+		text-align: center;
+	}
+
+	.menu-social.menu > .menu-item {
+		display: inline-block;
+		float: none;
+	}
+
+	.menu-social.menu .menu-item:not(:last-child) {
+		margin-right: 26px;
+	}
+
+	.menu-social.menu .menu-item a {
+		font-size: 26px;
+	}
+
+}
+
+
+
+
+
+/*------------------------------*\
+	$700MAX
+\*------------------------------*/
+
+@media all and (max-width: 700px) {
+
+	.menu-main {
+		margin-left: 0;
+	}
+
+	.menu-main > .menu-item {
+		margin-bottom: 13px;
+		padding-left: 0;
+		width: 100%;
+	}
+
+}
+
+
+
+/* ICONS */
+
+.menu-social .menu-item a[href*="wordpress.org"],.menu-social .menu-item a[href*="wordpress.com"]{color:#21759b}.menu-social .menu-item a[href*="wordpress.org"]:before,.menu-social .menu-item a[href*="wordpress.com"]:before{content:'\e80b'}.menu-social .menu-item a[href*="facebook.com"]{color:#3b5998}.menu-social .menu-item a[href*="facebook.com"]:before{content:'\e804'}.menu-social .menu-item a[href*="twitter.com"]{color:#55acee}.menu-social .menu-item a[href*="twitter.com"]:before{content:'\e800'}.menu-social .menu-item a[href*="dribbble.com"]{color:#ea4c89}.menu-social .menu-item a[href*="dribbble.com"]:before{content:'\e80c'}.menu-social .menu-item a[href*="plus.google.com"]{color:#dd4b39}.menu-social .menu-item a[href*="plus.google.com"]:before{content:'\e806'}@media all and (min-width: 1118px){.menu-social .menu-item a[href*="plus.google.com"]:before{font-size:18px;line-height:28px}}.menu-social .menu-item a[href*="pinterest.com"]{color:#cc2127}.menu-social .menu-item a[href*="pinterest.com"]:before{content:'\e803'}.menu-social .menu-item a[href*="tumblr.com"]{color:#35465c}.menu-social .menu-item a[href*="tumblr.com"]:before{content:'\e808'}.menu-social .menu-item a[href*="youtube.com"]{color:#e52d27}.menu-social .menu-item a[href*="youtube.com"]:before{content:'\e807'}.menu-social .menu-item a[href*="flickr.com"]{color:#0063dc}.menu-social .menu-item a[href*="flickr.com"]:before{content:'\e80a'}.menu-social .menu-item a[href*="vimeo.com"]{color:#162221}.menu-social .menu-item a[href*="vimeo.com"]:before{content:'\e809'}.menu-social .menu-item a[href*="instagram.com"]{color:#3f729b}.menu-social .menu-item a[href*="instagram.com"]:before{content:'\e805'}.menu-social .menu-item a[href*="linkedin.com"]{color:#0976b4}.menu-social .menu-item a[href*="linkedin.com"]:before{content:'\e801'}.menu-social .menu-item a[href*="github.com"]{color:#0976b4}.menu-social .menu-item a[href*="github.com"]:before{content:'\e802'}
