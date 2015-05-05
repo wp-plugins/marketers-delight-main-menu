@@ -18,7 +18,7 @@ function md_has_main_menu() {
 	$single['add']    = isset( $single['add'] ) ? $single['add'] : '';
 	$single['remove'] = isset( $single['remove'] ) ? $single['remove'] : '';
 
-	if ( is_single() && ! empty( $site_add ) && ! empty( $single['remove'] ) )
+	if ( is_singular() && ! empty( $site_add ) && ! empty( $single['remove'] ) )
 		return false;
 	elseif (
 		(
