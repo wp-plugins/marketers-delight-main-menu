@@ -69,7 +69,10 @@ To see a live demo of this menu, [go here](https://kolakube.com/guides/main-menu
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.2 =
+* Fixed bug where menu couldn’t be removed from individual Pages
+
+= 1.0.1 =
 * Getting this beast out into the world. :)
 
 == Upgrade Notice ==
