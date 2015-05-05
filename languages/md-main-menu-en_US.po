@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketers Delight Main Menu\n"
+"POT-Creation-Date: 2015-05-02 10:14-0600\n"
+"PO-Revision-Date: 2015-05-02 10:14-0600\n"
+"Last-Translator: Alex Mangini <alexfrais@gmail.com>\n"
+"Language-Team: Alex Mangini <alexfrais@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/customizer.php:19
+msgid "Main Menu: Remove Search Bar"
+msgstr ""
+
+#: admin/meta-box.php:61
+msgid "Select a custom menu&hellip;"
+msgstr ""
+
+#: admin/meta-box.php:75 md-main-menu.php:121
+msgid "Main Menu"
+msgstr ""
+
+#: admin/meta-box.php:78
+msgid "Remove <b>Main Menu</b>"
+msgstr ""
+
+#: admin/meta-box.php:83
+msgid "Set a custom menu"
+msgstr ""
+
+#: functions/template-functions.php:123
+msgid "Menu"
+msgstr ""
+
+#: md-main-menu.php:122
+msgid "Social Media Menu"
+msgstr ""
+
+#: templates/main-menu.php:28
+msgid "Search"
+msgstr ""
+
+#: templates/searchform-main-menu.php:15
+msgid "To search, type and hit enter&hellip;"
+msgstr ""
